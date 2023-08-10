@@ -31,6 +31,5 @@ class MaxTest {
         int result = Max.max(left, right);
         int expected = 2;
         assertThat(result).isEqualTo(expected);
-
     }
 }
