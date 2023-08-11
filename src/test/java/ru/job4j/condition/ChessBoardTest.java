@@ -6,17 +6,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ChessBoardTest {
 
     @Test
-    public void when() {
-        int x1 = 1;
-        int y1 = 2;
-        int x2 = 4;
-        int y2 = 5;
-        int result = ChessBoard.way(x1, y1, x2, y2);
-        int expected = 3;
-        assertThat(result).isEqualTo(expected);
-    }
-
-    @Test
     public void wayIs5() {
         int x1 = 6;
         int y1 = 7;

@@ -16,4 +16,5 @@ public class ChessBoard {
     private static boolean isValid(int coordinate) {
         return coordinate >= 0 && coordinate <= 7;
     }
+
 }
