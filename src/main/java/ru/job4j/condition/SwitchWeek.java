@@ -5,28 +5,28 @@ public class SwitchWeek {
         String name = null;
         switch (day) {
             case 1:
-                System.out.println("Понедельник");
+                name = "Понедельник";
                 break;
             case 2:
-                System.out.println("Вторник");
+                name = "Вторник";
                 break;
             case 3:
-                System.out.println("Среда");
+                name = "Среда";
                 break;
             case 4:
-                System.out.println("Четверг");
+                name = "Четверг";
                 break;
             case 5:
-                System.out.println("Пятница");
+                name = "Пятница";
                 break;
             case 6:
-                System.out.println("Суббота");
+                name = "Суббота";
                 break;
             case 7:
-                System.out.println("Воскресенье");
+                name = "Воскресенье";
                 break;
             default:
-                System.out.println("Ошибка");
+                name = "Ошибка";
                 break;
         }
 
