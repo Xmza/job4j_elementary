@@ -6,13 +6,11 @@ public class Max {
         return result;
     }
 
-    public static int max(int right, double left, int up) {
-        int result = left > right + up ? (int) left : right + up;
-        return result;
+    public static int max(int a, int b, int c) {
+        return max(max(a, b), c);
     }
 
-    public static int max(int right, int left, double up, double down) {
-        int result = left + right > up + down ? left + right : (int) (up + down);
-        return result;
+    public static int max(int a, int b, int c, int d) {
+        return max(max(a, b, c), d);
     }
 }
