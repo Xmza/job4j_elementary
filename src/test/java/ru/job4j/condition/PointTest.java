@@ -42,4 +42,22 @@ class PointTest {
         double expected = 0;
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void when00to04to56then4() {
+        Point a = new Point(0, 0, 5);
+        Point b = new Point(0, 4, 6);
+        double out = a.distance(b);
+        double expected = 4;
+        assertThat(out).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void when00to04to04then4() {
+        Point a = new Point(0, 0, 0);
+        Point b = new Point(0, 4, 4);
+        double out = a.distance(b);
+        double expected = 4;
+        assertThat(out).isEqualTo(expected, withPrecision(0.01));
+    }
 }
